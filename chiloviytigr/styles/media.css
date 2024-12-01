@@ -1,0 +1,79 @@
+
+@media screen and (max-width: 430px) {
+
+	body{
+		font-size: 3px;
+	}
+
+	.logo{
+		font-size: 5em;
+	}
+
+	.menu-item{
+		padding: 0 5px;
+		margin: 0 3px;
+	}
+
+	.menu-link{
+		font-size: 5em;
+	}
+
+	.searcher{
+		padding-left: 8px;
+		background-size: 7px;
+		display: none;
+	}
+
+	.face{
+
+	}
+
+	.nos button{
+		width: 150px;
+		height: 60px;
+	}
+
+	.lob{
+		font-size: 10em;
+	}
+
+	.brov{
+		font-size: 4em;
+	}
+
+	.about-text h3{
+		font-size:15em ; 
+	}
+
+	.about-text p{
+		font-size: 5em;
+	}
+
+	.about-row{
+		flex-wrap: wrap;
+	}
+
+	.about-col p{
+		font-size: 5em;
+	}
+
+	.servises-title h3{
+		font-size: 10em;
+	}
+
+	.servises-title p{
+		font-size: 5em;
+	}
+
+	.col{
+		width: 2em;
+		height: 6em;
+		font-size: 2.2em;
+	}
+
+	.topper{
+		height: 30px;
+		width: 30px;	
+	}
+}
+   

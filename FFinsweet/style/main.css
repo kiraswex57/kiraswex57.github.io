@@ -1,0 +1,1013 @@
+html body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family:Optima, sans-serif;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background: #232536;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brov2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 700px;
+
+}
+.menu{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #FFFFFF;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu:hover{
+    background: #FFFFFF;
+    color: #232536;
+    transform: scale(1.1);
+}
+
+.logo{
+    font-size: 1.7em;
+    color: rgb(194, 192, 192);
+}
+
+.fon{
+    width: 100%;
+    height: 150px;
+}
+
+.tyt{
+    transform: scale(1.1);
+    background: #FFFFFF;
+    color: #232536;
+}
+
+.sub{
+    background: #FFFFFF;
+    color: #232536;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.overlay{
+    background: url(../img/man.png);
+    width: 100%;
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+    box-shadow:inset  1050px -505px 350px rgba(0, 0, 0, 0.6);   
+}
+
+.over{
+    width: 50%;
+    height: 70%;
+    margin-left: 90px;
+    color: #FFFFFF;
+    
+}
+
+.post {
+    margin-top: 90px;
+    font-size: 2em;
+    margin-bottom: -40px;
+}
+
+.step{
+    font-size: 4em;
+    margin-bottom: -30px;
+}
+
+.by{
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.by a{
+    text-decoration: none;
+    color: #FFD050 ;
+}
+
+.duis{
+    margin-bottom: 40px;
+}
+
+.button{
+    background: #FFD050;
+    width: 97px;
+    color: black;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 37px;
+}
+
+.future{
+    margin: auto;
+    width: 90%;
+    height: 775px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.post1{
+    width: 45%;
+    text-align: center;
+
+}
+
+.post2{
+    width: 35%;
+}
+
+.vid {
+    width: 669px;
+    height: 352px;
+}
+
+.ba{
+    margin-left: -490px;
+}
+
+.ba a{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.lore{
+    margin-left: 40px;
+    font-size: 1.8em;
+    width: 740px;
+    text-align: left;
+}
+
+.duis2{
+    margin-left: 40px;
+    opacity: 0.7;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.button2{
+    background: #FFD050;
+    width: 97px;
+    color: black;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 37px;
+    margin-left: 40px;
+}
+
+.po{
+    text-align: left;
+}
+
+.coment{
+    width: 380px;
+    margin-left: 50px;
+}
+
+.bay a{
+    text-decoration: none;
+}
+
+.bay{
+    margin-right: 190px;
+    width: 290px;
+}
+
+.figma{
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.view a{
+    text-decoration: none;
+    width: 60px;
+    margin-left: 390px;
+    margin-top: -70px;
+}
+
+.line{
+    width: 1061px;
+    height: 23px;
+    background:#FFD050 ;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+}
+
+.line2{
+    width: 300px;
+    height: 23px;
+    background: rgb(67, 9, 133);
+    margin-left: 100px;
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+}
+
+.text1, .text2{
+    width: 35%;
+    height: 100%;
+}
+
+.text2{
+    width: 26%;
+}
+
+.au{
+    font-size: 1em;
+    margin-bottom: 30px;
+    color: #232536;
+}
+
+.we{
+    font-size: 2em;
+}
+
+.lor{
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.about a{
+    text-decoration: none;
+    color: rgb(67, 9, 133);
+}
+
+.create{
+    font-size: 1.5em;
+}
+
+.choose{
+    width: 92%;
+    height: 424px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.choo{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+.card-main{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.card-menu{
+    width: 296px;
+    height: 228px;
+    margin-top: -130px;
+    text-align: left;
+    transition: 0.2s;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-menu:hover{
+    background: #FFD050;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.name{
+    font-size: 1.7em;
+}
+
+.startup{
+    background: #FFD050;
+    width: 296px;
+    height: 228px;
+    margin-top: -130px;
+    text-align: left;
+}
+
+.startup img{
+    margin-top: -17px;
+    margin-left: -1px;
+}
+
+.startup .name{
+    margin-top: -7px;
+    margin-left: 25px;
+}
+
+.startup .lor{
+    margin-left: 25px;
+}
+
+.back{
+    background: url(../img/Icon\ background.png);
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.icon{
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+
+.idea-block{
+    width: 100%;
+    height: 705px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.idea-img{
+    width: 70%;
+    height: 100%;
+    background: url(../img/idea.png);
+    background-size: cover;
+
+
+}
+
+.why{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    background: white;
+    margin-top: 124px;
+    margin-right: 250px;
+}
+
+.wt-fon{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+ 
+}
+
+.why-we{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.it-start{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 3em;
+}
+
+.why .lor{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.why .button{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 169px;
+}
+
+.list-block{
+    width: 78%;
+    height: 420px;
+    margin: auto;
+}
+
+.card-menu1{
+    width: 296px;
+    height: 324px;
+    text-align: center;
+    transition: 0.2s;
+    padding-top: 30px;
+    border-radius: 20px;
+    
+}
+
+.card-menu1:hover{
+    background:#FFD050;
+    transform: scale(1.1);
+}
+
+.avatar{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.avatar-name{
+    font-size: 1.7em;
+    margin-bottom: -25px;
+}
+
+.content{
+    opacity: 0.7;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+.massagers{
+    display: flex;
+    justify-content: space-around;
+    width: 112px;
+    height: 16px;
+    margin: auto;
+}
+
+.massagers img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.logoimpsum{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.testimon-block{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 464px;
+    margin: auto;
+}
+
+.testi-block1{
+    width: 400px;
+}
+
+.what{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.testi{
+    margin-bottom: -20px;
+}
+
+.jon-card img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.jon-card{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.jon-cardmin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -100px;
+    padding-right: 20px;
+}
+
+.jon-cardmin2{
+    margin-right: 170px;
+    width: 700px;
+}
+
+.jon{
+    font-size: 1.5em;
+    margin-bottom: -15px;
+}
+
+.jonaton-block{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-left: 80px;    
+}
+
+.butons{
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+    margin-top: 10px;
+}
+
+.testi-block2{
+    width: 550px;
+    flex-wrap: wrap;
+    height: 60%;
+}
+
+.lore2{
+    font-size: 1.5em;
+    margin-bottom: 150px;
+}
+
+.join-block{
+    margin: auto;
+    width: 414px;
+    height: 256px;
+    margin-top: -50px;
+}
+
+.join-our{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.lor3{
+    text-align: center;
+    opacity: 0.7;
+}
+
+.join-block .button2{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.join-block .button2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.button2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.footer{
+    width: calc(100%-70px);
+    height: 440px;
+    background: #232536;
+    padding: 70px;
+}
+
+.stroka1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brov3{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.menu-foot{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.brov3 a:hover{
+    opacity: 0.7;
+}
+
+.brov3 a{
+    padding-top: 10px;
+}
+
+.stroka1 .logo{
+    color: white;
+}
+
+
+.stroka2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(41, 44, 59);
+    height: 256px;
+}
+
+.stroka2 p{
+    width: 650px;
+    font-size: 2.5em;
+    color: white;
+    text-align: left;
+}
+
+.stroka2 input{
+    background: none;
+    border: solid 1px #4C4C4C;
+    padding: 20px;
+    padding-right: 120px;
+}
+
+.stroka2min{
+    width: 560px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stroka3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+
+
+.massagers1{
+    display: flex;
+    justify-content: space-around;
+    width: 122px;
+    height: 16px;
+    margin: auto;
+}
+
+
+.massagers1 img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.contact{
+    color: #FFFFFF;
+    padding-right: 60%;
+}
+
+.fut-post{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -110px;
+    margin-bottom: -100px;
+}
+
+.fut-post div{
+    color: #232536;
+}
+
+.fut-post a{
+    color: rgb(67, 9, 133);
+    font-size: 0,8em;
+}
+
+.fut-post .post{
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.fut-post .step{
+    font-size: 2.4em;
+    margin-bottom: 10px;
+}
+
+.man-img{
+    width: 515px;
+    height: 359px;
+    background: url(../img/bd83d188028be8a810fd08204554ab09.png);
+    background-size: cover;
+}
+
+.all-posts{
+    width: 100%;
+    height: 1846px;
+    align-items: center;
+}
+
+.posts{
+    width: 80%;
+    height: 318px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.fon-img{
+    width: 490px;
+    height: 298px;
+    background-size: cover;
+}
+
+.post-name{
+    height: 278px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.post-name .cel {
+    color: rgb(67, 9, 133);
+    margin-bottom: -20px;
+}
+
+.post-name a{
+    text-decoration: none;
+}
+
+.post-name .cel2{
+    font-size: 2.4em;
+    margin-bottom: -10px;
+}
+
+.duris{
+    opacity: 0.7;
+}
+
+.bag{
+}
+
+.next{
+    background-size: cover;
+    width: 174px;
+    height: 20px;
+    margin: auto;
+}
+
+.all-choo{
+    text-align: left;
+    font-size: 2.5em;
+}
+
+.blog-iner{
+    margin: auto;
+    width: 768px;
+    height: 282px;
+    margin-top: 150px;
+}
+
+.iner{
+    margin-right: -170px;
+    width: 700px;
+}
+
+.iner .jon{
+    color: #592EA9;
+}
+
+.gk {
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+.jon-card2{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin-left: 100px;
+    margin-bottom: -40px;
+}
+
+.jon-card2 img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.newyork{
+    opacity: 0.5;
+}
+
+.startup-logo{
+    width: 85px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overlay2{
+    width: 1280px;
+    height: 582px;
+    background: url(../img/photo-of-woman-wearing-eyeglasses-3184405.png);
+    margin: auto;
+}
+
+.polis{
+    width: 843px;
+    height: 1164px;
+    margin: auto;
+}
+
+.lor4{
+    font-size: 2.2em;
+}
+
+.polis li{
+    opacity: 78%;
+    font-size: 1.5em;
+}
+
+.whatto-block{
+    width: 100%;
+    height: 782px;
+}
+
+.cards{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-menu{
+    margin: auto;
+    width: 30%;
+    height: 100%;
+}
+
+.cards-menu img{
+    width: 405px;
+    height: 318px;
+}
+
+.wh-to{
+    font-size: 2.4em;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.ux{
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.duris2{
+    opacity: 0.6;
+}
+
+.cards-menu a{
+    color: #592EA9;
+}
+
+.published{
+    background: url(../img/overvive.png);
+    width: 100%;
+    height:960px;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
+.publ-block{
+    width: 730px;
+    height: 180px;
+}
+
+.publ-block .linee{
+    width: 1061px;
+    height: 23px;
+    background:#FFD050 ;
+    margin-left: 222px;
+    display: flex;
+    justify-content: left;
+    margin-top: -12px;
+}
+
+.publ-block .linee2{
+    width: 340px;
+    height: 23px;
+    background: rgb(67, 9, 133);
+}
+
+.blogs-block{
+    width: 630px;
+    height: 180px;
+    background: #FFD050;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 222px;
+    margin-top: -11px;
+}
+
+.blogs{
+    font-size: 1.8em;
+}
+
+.blogs p{
+    font-size: 0.6em;
+    margin-top: -40px;
+}
+
+.we-are p{
+    font-size: 3em;
+}
+
+.we-are h2{
+    opacity: 0.6;
+}
+
+.we-are{
+    margin-top: -80px;
+    position: absolute;
+    background: white;
+    width: 565px;
+    margin-left: 200px;
+    padding: 60px;
+}
+
+.loremm{
+    height: 160px;
+    width: 420px;
+    margin-left: 1000px;
+    line-height: 30px;
+    opacity: 0.7;
+    margin-top: 100px;
+}
+
+.top{
+    margin-bottom: 200px;
+}
+
+.ourteam-block{
+    width: 100%;
+    height: 1200px;
+}
+
+.blox{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.our-text{
+    width: 50%;
+    height: 100%;
+    line-height: 40px;
+    margin-top: 200px;
+}
+
+.our-text h1{
+    font-size: 2.5em;
+}
+
+.our-text p{
+    font-size: 1.5em;
+}
+
+.our-text .lorem-our{
+    font-size: 1em;
+    opacity: 0.7;
+}
+
+.figyra{
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    background: #FFD050;
+    border-radius: 50px 0 0 0;
+    margin-top: -350px;
+    margin-left: -80px;
+}
+
+.figyra2{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: #592EA9;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -60px;
+}
